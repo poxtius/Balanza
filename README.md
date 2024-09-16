@@ -35,7 +35,8 @@ void loop() {
 
   delay(1000);
   
-}```
+}
+```
 
 Y el otro programa sería el siguiente:
 
@@ -59,4 +60,5 @@ void loop() {
 
   delay(1000);
   
-} ```
+}
+```
