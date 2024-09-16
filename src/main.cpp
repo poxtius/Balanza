@@ -7,6 +7,9 @@ const int LOADCELL_DOUT_PIN = 2;
 const int LOADCELL_SCK_PIN = 4;
 
 HX711 balanza;
+/// Esta zona del codigo hace una medición con nuestra escala ajustada 
+/// y con la bascula con tara para que nos reste el peso de la plataforma que le ponemos encima 
+///como soporte para las cosas a pesar.
 
 void setup() {
   Serial.begin(57600);
@@ -30,6 +33,8 @@ void loop() {
   delay(1000);
   
 }
+
+///Esta zona del código la usamos para conseguir los valores que luego vamos a usar para luego calcular la escala.
 
 /*void setup() {
   Serial.begin(57600);
