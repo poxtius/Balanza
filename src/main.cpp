@@ -3,8 +3,8 @@
 #include "HX711.h"
 
 // HX711 circuit wiring
-const int LOADCELL_DOUT_PIN = 2;
-const int LOADCELL_SCK_PIN = 4;
+const int LOADCELL_DOUT_PIN = 19;
+const int LOADCELL_SCK_PIN = 18;
 
 HX711 balanza;
 /// Esta zona del codigo hace una medición con nuestra escala ajustada 
